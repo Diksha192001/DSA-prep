@@ -1,0 +1,8 @@
+def calculateGCD(n:int, m: int) -> int:
+  if m == 0:
+    return n
+  else:
+    return calcGCD(m, n % m)
+
+n, m = map(int(input().split())
+calculateGCD(n, m)
